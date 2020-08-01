@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Home from './components/Home';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 class App extends React.Component {
     constructor() {
@@ -11,6 +12,7 @@ class App extends React.Component {
     render() {
         return(
             <Router>
+                <Navbar />
                 <Switch>
                     <Redirect from='/' to='/home' exact />
                     <Route
