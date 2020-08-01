@@ -9,7 +9,7 @@ class Home extends React.Component {
 
     render() {
         return(
-            <Title level={1} style={{textAlign: 'center'}}>Coming Soon!</Title>
+            <Title level={5} style={{textAlign: 'center'}}>Coming Soon!</Title>
         );
     }
 }
