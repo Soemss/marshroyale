@@ -16,7 +16,7 @@ export default function NotFound(props) {
             </Typography>
             <Divider style={{margin: 10}} />
             <Typography style={{textAlign: 'center', color: 'grey'}} variant='h4'>
-                The requested resource was not found on this server
+                Too lazy to do this, so theres nothing here ¯\_(ツ)_/¯
             </Typography>
         </div>
     )
