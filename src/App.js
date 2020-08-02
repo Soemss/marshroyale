@@ -3,6 +3,7 @@ import './App.css';
 import Home from './components/Home';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import NotFound from './components/NotFound';
 
 class App extends React.Component {
     constructor() {
@@ -20,6 +21,7 @@ class App extends React.Component {
                         exact
                         component={Home}
                     />
+                    <Route component={NotFound} />
                 </Switch>
             </Router>
         )
