@@ -13,7 +13,7 @@ class Home extends React.Component {
             <Grid container justify='center' spacing={4}>
                 <Grid item>
                     <Typography variant='h2' style={{fontWeight: 400}}>
-                        Marsh Royale
+                        Marsh Royale Home
                     </Typography>
                 </Grid>
             </Grid>
