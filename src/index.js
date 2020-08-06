@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core'
-import { grey } from 'material-ui/core/colors/grey'
+import { grey, grey } from 'material-ui/core/colors/grey'
 
 ReactDOM.render(
   <React.StrictMode>
