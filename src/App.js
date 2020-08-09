@@ -17,7 +17,12 @@ class App extends React.Component {
 
     function App() {
         const theme = createMuiTheme({
-            primary: grey[800]
+            palette: {
+                primary: {
+                    main: grey[800]
+                }
+            }
+            
         })
     
         return(
