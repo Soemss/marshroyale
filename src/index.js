@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import AlternateApp from './AlternateApp';
 import * as serviceWorker from './serviceWorker';
+
+document.body.style = 'background: #bdbdbd;';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <AlternateApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
