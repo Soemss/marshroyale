@@ -5,26 +5,23 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 import Navbar from './components/Navbar';
 import NotFound from './components/NotFound';
 import { createMuiTheme } from '@material-ui/core';
+import { grey } from '@material-ui/core/colors'
 
-class App extends React.Component {
-    constructor() {
-        super();
-    }
-
-
-    render() {
-
-
-    function App() {
+function App() {
         const theme = createMuiTheme({
             palette: {
                 primary: {
                     main: grey[800]
                 }
             }
-            
-        })
-    
+        });
+
+class App extends React.Component {
+    constructor() {
+        super();
+    }
+
+    render() {
         return(
             <Router>
                     <Navbar />
