@@ -5,7 +5,6 @@ import App from './App';
 import AlternateApp from './AlternateApp';
 import * as serviceWorker from './serviceWorker';
 
-document.body.style = 'background: #bdbdbd;';
 
 ReactDOM.render(
   <React.StrictMode>
